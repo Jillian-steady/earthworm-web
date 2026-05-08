@@ -84,7 +84,7 @@ export default function CourseContents({ isOpen, onClose }: CourseContentsProps)
           <select
             value={filterOption}
             onChange={(e) => setFilterOption(e.target.value)}
-            className="select select-bordered select-sm dark:bg-gray-700 dark:text-white"
+            className="select select-sm dark:bg-gray-700 dark:text-white"
           >
             <option value="all">全部</option>
             <option value="mastered">已经掌握</option>

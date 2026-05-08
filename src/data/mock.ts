@@ -4,7 +4,7 @@
 import { courseStatements } from "./mock-statements";
 
 export const isMockMode =
-  process.env.MOCK_MODE === "true" || !process.env.API_BACKEND_URL;
+  process.env.NEXT_PUBLIC_MOCK_MODE === "true" || !process.env.API_BACKEND_URL;
 
 // ============ Course Pack ============
 

@@ -42,7 +42,7 @@ export default function RankingBoard() {
 
         <div className="flex flex-grow flex-col overflow-y-auto overflow-x-hidden">
           {/* Tabs */}
-          <div role="tablist" className="tabs tabs-lifted tabs-md">
+          <div role="tablist" className="tabs tabs-lift tabs-md">
             {rankingStore.rankingPeriodList.map((period) => (
               <a
                 key={period.value}

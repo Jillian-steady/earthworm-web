@@ -131,7 +131,7 @@ export default function CallbackPage() {
               onChange={(e) => setUsername(e.target.value)}
               type="text"
               placeholder="请输入用户名"
-              className="input input-sm input-bordered w-full"
+              className="input input-sm w-full"
               maxLength={20}
               onKeyDown={(e) => {
                 if (e.key === "Enter") handleChangeUsername();

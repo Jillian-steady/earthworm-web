@@ -119,7 +119,7 @@ export default function GameSettingModal() {
                 <select
                   value={toolBarData[option.key]}
                   onChange={(e) => handleChange(option.key, e.target.value)}
-                  className="select select-bordered select-sm w-32 dark:bg-gray-700 dark:text-white"
+                  className="select select-sm w-32 dark:bg-gray-700 dark:text-white"
                 >
                   {option.options.map((opt) => (
                     <option key={opt.value} value={opt.value}>
